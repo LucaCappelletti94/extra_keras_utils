@@ -44,7 +44,7 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version=__version__,
 
-    description='Covolutional neural network with bayesian hyper-parameters tuning.',
+    description='Python package collecting commonly used snippets for the Keras library.',
     long_description=long_description,
 
     # The project's main homepage.
