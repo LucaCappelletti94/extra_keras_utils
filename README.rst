@@ -18,7 +18,27 @@ Since some software handling coverages sometime get slightly different results, 
 
 |coveralls| |sonar_coverage| |code_climate_coverage|
 
-AFTER
+is_gpu_available
+--------------------------------------
+Method that returns a boolean if a GPU is detected or not.
+
+.. code:: python
+
+    from extra_keras_utils import is_gpu_available
+
+    if is_gpu_available():
+        print("Using gpu!")
+
+set_seed
+--------------------------------------
+Method to get reproducible results.
+
+.. code:: python
+
+    from extra_keras_utils import set_seed
+
+    set_seed(42) # set as seed 42, the results are nearly reproducible.
+    set_seed(42, kill_parallelism=true) # set as seed 42, the results are fully reproducible.
 
 .. |travis| image:: https://travis-ci.org/LucaCappelletti94/extra_keras_utils.png
    :target: https://travis-ci.org/LucaCappelletti94/extra_keras_utils
