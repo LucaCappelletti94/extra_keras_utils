@@ -60,12 +60,12 @@ Method to get reproducible results.
     :target: https://coveralls.io/github/LucaCappelletti94/extra_keras_utils?branch=master
     :alt: Coveralls Coverage
 
-.. |pip| image:: https://badge.fury.io/py/extra_keras_utils.svg
-    :target: https://badge.fury.io/py/extra_keras_utils
+.. |pip| image:: https://badge.fury.io/py/extra-keras-utils.svg
+    :target: https://badge.fury.io/py/extra-keras-utils
     :alt: Pypi project
 
-.. |downloads| image:: https://pepy.tech/badge/extra_keras_utils
-    :target: https://pepy.tech/badge/extra_keras_utils
+.. |downloads| image:: https://pepy.tech/badge/extra-keras-utils
+    :target: https://pepy.tech/badge/extra-keras-utils
     :alt: Pypi total project downloads 
 
 .. |codacy|  image:: https://api.codacy.com/project/badge/Grade/cfef06c9def842369ce3a6ef9ea12a51
