@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: extra-keras-utils
-Version: 1.0.2
+Version: 1.0.3
 Summary: Python package collecting commonly used snippets for the Keras library.
 Home-page: https://github.com/LucaCappelletti94/extra_keras_utils
 Author: Luca Cappelletti
@@ -36,6 +36,17 @@ Description: extra_keras_utils
         
             if is_gpu_available():
                 print("Using gpu!")
+        
+        is_multi_gpu
+        --------------------------------------
+        Method that returns a boolean if more than one GPU is detected.
+        
+        .. code:: python
+        
+            from extra_keras_utils import is_multi_gpu
+        
+            if is_multi_gpu():
+                print("More than one GPU is available!")
         
         set_seed
         --------------------------------------

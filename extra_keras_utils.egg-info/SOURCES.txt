@@ -3,7 +3,9 @@ README.rst
 setup.py
 extra_keras_utils/__init__.py
 extra_keras_utils/__version__.py
+extra_keras_utils/get_gpus_number.py
 extra_keras_utils/is_gpu_available.py
+extra_keras_utils/is_multi_gpu.py
 extra_keras_utils/set_seed.py
 extra_keras_utils.egg-info/PKG-INFO
 extra_keras_utils.egg-info/SOURCES.txt
