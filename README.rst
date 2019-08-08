@@ -29,6 +29,17 @@ Method that returns a boolean if a GPU is detected or not.
     if is_gpu_available():
         print("Using gpu!")
 
+is_multi_gpu
+--------------------------------------
+Method that returns a boolean if more than one GPU is detected.
+
+.. code:: python
+
+    from extra_keras_utils import is_multi_gpu
+
+    if is_multi_gpu():
+        print("More than one GPU is available!")
+
 set_seed
 --------------------------------------
 Method to get reproducible results.
