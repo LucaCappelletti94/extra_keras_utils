@@ -12,7 +12,6 @@ def set_seed(seed:int, kill_parallelism:bool=False):
     os.environ['PYTHONHASHSEED']=str(seed)
     np.random.seed(seed)
     random.seed(seed)
-    tf.set_random_seed(seed)
     if kill_parallelism:
         K.set_session(
             tf.Session(
